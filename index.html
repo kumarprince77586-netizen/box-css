@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Media Cards</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 55px;
+            min-height: 100vh;
+            background-color: white;
+        }
+
+        .card {
+            width: 350px;
+            height: 550px;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .instagram {
+            background-color: #f52265;
+            color: white;
+            border: none;
+        }
+
+        .icon {
+            font-size: 70px;
+            margin-top: 25px;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-top: 35px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-top: 25px;
+        }
+
+        input {
+            width: 80%;
+            height:  50px;
+            border: none;
+            margin-top:  30px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .dark {
+            background-color: #000000;
+            color: white;
+        }
+
+        .instagram input {
+            background-color: rgb(0, 0, 0);
+            color: #fffbfc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Twitter -->
+    <div class="card" style="background-color: rgb(0, 0, 0); color:  white;">
+        <div class="icon">𝕏</div>
+
+        <h1>TWITTER</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet,<br>
+            consectetur adipisicing elit.<br>
+            Expedita ullam aliquid non<br>
+            eligendi, nemo est neque<br>
+            reiciendis error?
+        </p>
+
+        <input type="button" value="READ MORE" class="dark">
+    </div>
+
+
+    <!-- Instagram -->
+    <div class="card instagram">
+        <div class="icon"><img src="https://cdn-icons-png.flaticon.com/128/717/717392.png" alt=""></div>
+
+        <h1>INSTAGRAM</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet,<br>
+            consectetur adipisicing elit.<br>
+            Expedita ullam aliquid non<br>
+            eligendi, nemo est neque<br>
+            reiciendis error?
+        </p>
+
+        <input type="button" value="READ MORE">
+    </div>
+
+
+    <!-- YouTube -->
+    <div class="card" style="background-color: red;">
+        <div class="icon">▶</div>
+
+        <h1>YOUTUBE</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet,<br>
+            consectetur adipisicing elit.<br>
+            Expedita ullam aliquid non<br>
+            eligendi, nemo est neque<br>
+            reiciendis error?
+        </p>
+
+        <input type="button" value="READ MORE" class="dark">
+    </div>
+
+</body>
+</html>
